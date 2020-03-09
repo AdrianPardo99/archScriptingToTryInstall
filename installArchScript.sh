@@ -24,7 +24,7 @@ echo "Mostrando particion montada en /mnt"
 df -h
 echo "Intalación de paquetes base de arch"
 
-pacstrap /mnt base base-level
+pacstrap /mnt base base-devel git vim
 
 echo "Configuración de sistema particiones"
 
